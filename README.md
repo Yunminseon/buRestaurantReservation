@@ -36,6 +36,7 @@
 
 ## 🗂️ 프로젝트 구조
 
+```
 com.bu.backend
 ├── controller # 웹 요청 처리 (회원가입, 로그인 등)
 ├── dto # 데이터 전송 객체 (DTO)
@@ -44,6 +45,7 @@ com.bu.backend
 ├── service # 비즈니스 로직 처리
 ├── exception # 사용자 정의 예외 처리
 └── templates # HTML 뷰 (Thymeleaf)
+```
 ## 📷 화면 예시
 
 > ✅ 로그인 화면, 회원가입 화면, 메인 페이지, 회원 목록 조회 화면  
