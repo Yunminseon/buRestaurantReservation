@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><title>식당 예약</title></head>
+<body>
+<h2>예약 하기</h2>
+<form th:action="@{/reservation}" method="post" th:object="${reservationDto}">
+    <input type="text" th:field="*{restaurantName}" placeholder="식당 이름"><br>
+    <input type="date" th:field="*{reservationDate}"><br>
+    <input type="time" th:field="*{reservationTime}"><br>
+    <input type="number" th:field="*{numberOfPeople}" placeholder="인원 수"><br>
+    <button type="submit">예약</button>
+</form>
+</body>
+</html>
