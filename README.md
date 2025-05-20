@@ -36,7 +36,7 @@
 ## 🗂️ 프로젝트 구조
 
 com.bu.backend
-├── controller # 웹 요청 처리 ( 회원가입, 로그인)
+├── controller # 웹 요청 처리 (회원가입, 로그인 등)
 ├── dto # 데이터 전송 객체 (DTO)
 ├── entity # DB 테이블 매핑 객체 (JPA Entity)
 ├── repository # JPA를 이용한 DB 인터페이스
