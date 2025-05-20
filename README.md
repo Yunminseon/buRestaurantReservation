@@ -1,6 +1,8 @@
-로그인/회원가입, mysql 데이터베이스 연동 (회원정보 보기) 
-예약내역 조회/변경/취소 데이터베이스 연동 예정
-프론트엔드는 아직 적용하지않았습니다
+[![시연 영상](http://img.youtube.com/vi/영상ID/0.jpg)](https://www.youtube.com/watch?v=영상ID)
+##  진행 상황
+-로그인/회원가입 데이터베이스 연동 (회원정보 보기)
+-예약내역 조회/변경/취소 데이터베이스 연동 예정
+
 # 🍽️ Restaurant Reservation System (회원가입/로그인 기능 포함)
 
 이 프로젝트는 Spring Boot를 사용하여 개발한 간단한 웹 기반 **회원가입 및 로그인 기능**을 포함한 **식당 예약 시스템**입니다.  
@@ -25,7 +27,7 @@
 | Java      | 17   |
 | Spring Boot | 백엔드 프레임워크 |
 | Spring Data JPA | DB 연동 및 ORM 처리 |
-| H2 / MySQL | 테스트용 데이터베이스 |
+|  MySQL | 회원정보, 예약정보 데이터베이스 |
 | Thymeleaf | 템플릿 엔진 (화면 구현) |
 | Lombok | 코드 간결화 (DTO, Entity 등) |
 
@@ -34,7 +36,7 @@
 ## 🗂️ 프로젝트 구조
 
 com.bu.backend
-├── controller # 웹 요청 처리 (예: 회원가입, 로그인)
+├── controller # 웹 요청 처리 ( 회원가입, 로그인)
 ├── dto # 데이터 전송 객체 (DTO)
 ├── entity # DB 테이블 매핑 객체 (JPA Entity)
 ├── repository # JPA를 이용한 DB 인터페이스
