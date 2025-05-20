@@ -1,4 +1,4 @@
-[![시연 영상](http://img.youtube.com/vi/영상ID/0.jpg)](https://www.youtube.com/watch?v=영상ID)
+[![시연 영상](http://img.youtube.com/vi/영상ID/0.jpg)](https://www.youtube.com/watch?v=https://youtu.be/X8CDVdTAH9M)
 ##  진행 상황
 -로그인/회원가입 데이터베이스 연동 (회원정보 보기)
 -예약내역 조회/변경/취소 데이터베이스 연동 예정
